@@ -1,0 +1,6 @@
+.image-box{
+    display: inline-block;
+    margin: 3px;
+    border:5px solid #e60a9c;
+    padding: 10px;
+}

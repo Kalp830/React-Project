@@ -1,0 +1,13 @@
+.list-item{
+    background-color: aqua;
+    width: 500px;
+}
+.list-item ul{
+    padding: 0;
+    margin: 0;
+}
+.list-item ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
