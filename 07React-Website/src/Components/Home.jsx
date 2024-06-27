@@ -1,10 +1,11 @@
 import React from 'react'
 import HeroSection from './HeroSection'
 
+
 const Home = () => {
   const data ={
     name:"John Cena",
-    image: "./public/images/hero.svg"
+    image: "./src/images/hero.svg"
 
   }
   return (
