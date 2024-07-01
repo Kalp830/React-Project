@@ -9,6 +9,7 @@ import Footer from './Components/Footer'
 import {ThemeProvider} from 'styled-components'
 import { GlobalStyle } from './Components/GlobalStyle'
 
+
 function App() {
   const theme ={
     colors: {
@@ -34,8 +35,9 @@ function App() {
     }
   };
   return (
-    <ThemeProvider theme={theme}>
-      <GlobalStyle/>
+
+    <ThemeProvider theme={theme}> 
+     <GlobalStyle />
     <BrowserRouter>
       <Header/>
       <Routes>
@@ -51,4 +53,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
