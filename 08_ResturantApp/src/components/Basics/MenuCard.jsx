@@ -1,23 +1,25 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import menuData from './MenuApi';
 
 
 const MenuCard = ({menuData}) => {
-    console.log(menuData);
   return (
     <>
        {menuData.map((curElem)=>{
          return(
             <>
-            <Card style={{ width: '18rem' }}>
-            <Card.Img className='margin' variant="top" />
+            <Card style={{ width: '18rem', padding:'10px', margin:'15px' }}>
+            <Card.Img   src={curElem.image} />
             <Card.Body>
-                <div className='border bg-info-subtle'>1</div>
-                <Card.Title>Card Title</Card.Title>
+                <div className='border bg-info-subtle'>{curElem.id}</div>
+                <Card.Title>{curElem.name}</Card.Title>
                 <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                  {curElem.description}
+                </Card.Text>
+                <Card.Text>
+                 Price :{curElem.price}
                 </Card.Text>
                 <Button variant="primary">Go somewhere</Button>
             </Card.Body>

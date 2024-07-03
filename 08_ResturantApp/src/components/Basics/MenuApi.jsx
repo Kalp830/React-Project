@@ -1,8 +1,8 @@
 const Menu = [
   {
     id: 1,
-    image:'../../assets/images/img1.jpg',
-    name: 'maggei',
+    image:'images/img1.jpg',
+    name: 'Gujarati Thali',
     category:'Lunch',
     price:25,
     description:'Lorem ipsum dolor sit amet orem ipsum dolor sit amet..',
