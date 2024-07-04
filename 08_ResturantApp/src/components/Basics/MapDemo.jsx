@@ -5,7 +5,10 @@ const MapDemo = () => {
     const fruitList = fruitArry.map((item)=> <p>{item}</p>)
   return (
     <>
-      <div className='furitList'>{fruitList}</div>
+      <div className='furitList'>
+        
+        {fruitList}
+        </div>
     </>
   )
 }

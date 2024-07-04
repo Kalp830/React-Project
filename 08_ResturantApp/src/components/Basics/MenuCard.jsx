@@ -1,32 +1,32 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import menuData from './MenuApi';
+
 
 
 const MenuCard = ({menuData}) => {
   return (
     <>
+     <section className="main-card--cointainer">
        {menuData.map((curElem)=>{
+         const {id, name, description, price ,image, category} = curElem;
          return(
             <>
-            <Card style={{ width: '18rem', padding:'10px', margin:'15px' }}>
-            <Card.Img   src={curElem.image} />
-            <Card.Body>
-                <div className='border bg-info-subtle'>{curElem.id}</div>
-                <Card.Title>{curElem.name}</Card.Title>
-                <Card.Text>
-                  {curElem.description}
-                </Card.Text>
-                <Card.Text>
-                 Price :{curElem.price}
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-            </Card>
+                <div className="card-container" key={id}>
+                <div className="card" style={{ width: '100%'}}>
+                  <div className="card-body">
+                    <span className="card-number card-circle subtle">{id}</span>
+                    <span className="card-author subtle"> {category}</span>
+                    <h2 className="card-title"> {name} </h2>
+                    <h2 className="card-price"> {price} </h2>
+                    <span className="card-description subtle">{description}</span>
+                  </div>
+                  <img src={image} alt="images" className="card-media" />
+                  <span className="card-tag  subtle">Order Now</span>
+                </div>
+              </div>
             </>
          );
        })}
+    </section>
     </>
   )
 }
