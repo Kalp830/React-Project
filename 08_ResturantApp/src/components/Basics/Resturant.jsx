@@ -18,9 +18,9 @@ const Resturant = () => {
   return (
     <>
 <div className="btn-group pt-5" role="group" aria-label="Basic outlined example">
-  <button type="button" className="btn btn-outline-primary" onClick={() => fliterItem("breakfast")}>Breakfast</button>
-  <button type="button" className="btn btn-outline-primary" onClick={() => fliterItem("lunch")} >Lunch</button>
-  <button type="button" className="btn btn-outline-primary" onClick={() => fliterItem("dinner")}>Dinner</button>
+  <button  className="btn btn-outline-primary" onClick={() => fliterItem("breakfast")}>Breakfast</button>
+  <button  className="btn btn-outline-primary" onClick={() => fliterItem("lunch")} >Lunch</button>
+  <button  className="btn btn-outline-primary" onClick={() => fliterItem("dinner")}>Dinner</button>
 </div>
 
 
