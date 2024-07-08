@@ -1,13 +1,24 @@
 import { useState } from 'react'
 import './App.css'
-import Resturant from './components/Resturant'
+import Resturant from './components/Basics/Resturant'
+import Row from 'react-bootstrap/Row';
+import MapDemo from './components/Basics/MapDemo'
+import UseState from './components/Hooks/useState';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Resturant/>
+    <div className='container'>
+
+                <Row>          
+                   <Resturant/>
+                   
+                </Row>
+                <UseState/>
+   
+                  {/* <MapDemo/> */}
+    </div>
     </>
   )
 }
