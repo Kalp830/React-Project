@@ -1,0 +1,97 @@
+
+.top-header{
+  background-color: #F0ECF9;
+  min-height: auto;
+}
+.btn-prevent{
+  border-radius: 50%;
+}
+.jumbotron{
+  h1{
+    font-family: "Archivo", sans-serif;
+    color: #0097FE;
+    font-weight: bold;
+  }
+  h6{
+    text-transform: uppercase;
+    font-family: "Archivo", sans-serif;
+    color: #0097FE;
+  }
+  p{
+    color: #858585;
+  }
+  button{
+    border-radius: 100px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background: #0097FE;
+    color: #fff;
+    font-family: "Archivo", sans-serif;
+    font-size: normal;
+    margin-top: 25px;
+  }
+  button:hover{
+    background: #047dce;
+    color: #fff;
+  }
+ 
+}
+
+/**********Second Section Css**************/
+.corona-statics{
+  text-align: center;
+  h2{
+    color: #0097FE;
+    font-family: "Archivo", sans-serif;
+    padding: 30px 0 0 0;
+  }
+  p{
+    color: #858585;
+  }
+  span{
+    color: #0097FE;
+    font-family: "Archivo", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+}
+
+/**********Third Section Css**************/
+.about-corona{
+  h3{
+    color: #0097FE;
+    font-family: "Archivo", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  p{
+    color: #858585;
+  }
+  button{
+    border-radius: 100px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background: #0097FE;
+    color: #fff;
+    font-family: "Archivo", sans-serif;
+    font-size: normal;
+    margin-top: 25px;
+  }
+  button:hover{
+    background: #047dce;
+    color: #fff;
+  }
+}
+ul.listing {
+  padding: 0;
+  margin: 0;
+}
+.listing li{
+  /* list-style-image: url(./images/check-mark.svg) ; */
+  background: url('./images/check-mark.svg') no-repeat;
+  list-style: none;
+  padding-left: 30px; 
+  margin-bottom: 20px; 
+  color: #858585;
+}
