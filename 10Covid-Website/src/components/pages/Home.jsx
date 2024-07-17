@@ -1,9 +1,13 @@
 import React from 'react';
-import CoronaStatics from './CoronaStatics';
-import AboutCorona from './AboutCorona';
-import CoronaSpreed from './CoronaSpreed';
+import CoronaStatics from './Home-Sections/CoronaStatics';
+import AboutCorona from './Home-Sections/AboutCorona';
+import CoronaSpreed from './Home-Sections/CoronaSpreed';
+import PointsDisplay from './Home-Sections/PointsDisplay';
+import PreventCorona from './Home-Sections/PreventCorona';
+import HowtoProtect from './Home-Sections/HowtoProtect';
 
 const Home = () => {
+  const headerImg = './images/header-img.png';
   return (
     <>
      <section className='top-header jumbotron'>
@@ -16,20 +20,30 @@ const Home = () => {
                <button className='btn btn-prevent'>How to Prevent</button>
             </div>
             <div className='col-6 text-end'>
-              <img src='./images/header-img.png' />
+              <img className='img-fluid' src={headerImg} />
             </div>
            </div>
          </div>
      </section>
 
       {/* corona virus statustics */}
-        <CoronaStatics/>
+       <CoronaStatics/>
 
      {/* what is corona */}
        <AboutCorona />
        
      {/* Corona Spreed */} 
-      <CoronaSpreed/>
+       <CoronaSpreed/>
+
+      {/* Different Points */} 
+       <PointsDisplay/>
+
+      {/* Privent Corona Section */} 
+      <PreventCorona/>
+
+      {/* How to protect yourself */} 
+      <HowtoProtect/>
+
 
     </>
   )

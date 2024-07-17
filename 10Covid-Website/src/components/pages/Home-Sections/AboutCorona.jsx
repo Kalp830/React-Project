@@ -8,7 +8,7 @@ const AboutCorona = () => {
       <section className='about-corona my-5'>
         <div className='container'>
             <div className='row'>
-                <div className='col'>
+                <div className='col-12 col-xl-6'>
                     <img className='img-fluid' src={imgCorona}/>
                 </div>
                 <div className='col-1'></div>

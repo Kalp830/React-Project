@@ -21,14 +21,14 @@
     color: #858585;
   }
   button{
-    border-radius: 100px;
+    border-radius: 6.25rem;
     text-transform: uppercase;
-    padding: 10px 30px;
+    padding: .625rem 1.875rem;
     background: #0097FE;
     color: #fff;
     font-family: "Archivo", sans-serif;
     font-size: normal;
-    margin-top: 25px;
+    margin-top: 1.5625rem;
   }
   button:hover{
     background: #047dce;
@@ -38,12 +38,13 @@
 }
 
 /**********Second Section Css**************/
-.corona-statics{
+.corona-statics,
+.how-to-protect{
   text-align: center;
   h2{
     color: #0097FE;
     font-family: "Archivo", sans-serif;
-    padding: 30px 0 0 0;
+    padding: 1.875rem 0 0 0;
   }
   p{
     color: #858585;
@@ -51,7 +52,7 @@
   span{
     color: #0097FE;
     font-family: "Archivo", sans-serif;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
   }
   
@@ -62,21 +63,21 @@
   h3{
     color: #0097FE;
     font-family: "Archivo", sans-serif;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
   }
   p{
     color: #858585;
   }
   button{
-    border-radius: 100px;
+    border-radius: 6.25rem;
     text-transform: uppercase;
-    padding: 10px 30px;
+    padding: .625rem 1.875rem;
     background: #0097FE;
     color: #fff;
     font-family: "Archivo", sans-serif;
     font-size: normal;
-    margin-top: 25px;
+    margin-top: 1.5625rem;
   }
   button:hover{
     background: #047dce;
@@ -91,7 +92,114 @@ ul.listing {
   /* list-style-image: url(./images/check-mark.svg) ; */
   background: url('./images/check-mark.svg') no-repeat;
   list-style: none;
-  padding-left: 30px; 
-  margin-bottom: 20px; 
+  padding-left: 1.875rem; 
+  margin-bottom: 1.25rem; 
   color: #858585;
+}
+/**********Foruth Section Css**************/
+.point-display h5{
+  font-family: "Archivo", sans-serif;
+  color: #0097FE;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+/**********Fifth Section Css**************/
+
+.prevent-corona{
+  background: #F0ECF9;
+  padding: 50px 0;
+  margin-bottom: 50px;
+
+  button{
+    border-radius: 6.25rem;
+    text-transform: uppercase;
+    padding: .625rem 1.875rem;
+    background: #0097FE;
+    color: #fff;
+    font-family: "Archivo", sans-serif;
+    font-size: normal;
+    margin-top: 1.5625rem;
+  }
+  button:hover{
+    background: #047dce;
+    color: #fff;
+  }
+  p{
+    color: #858585;
+  }
+  h3{
+    font-family: "Archivo", sans-serif;
+    color: #0097FE;
+    font-weight: bold;
+  }
+}
+
+.card {
+  background-color: #007bff;
+  color: white;
+  width: 223px;
+  margin: 1.25rem;
+  box-shadow: 0 .20rem .5rem rgba(0, 151, 254, 0.4);
+}
+
+.card-icon {
+  font-size: 3.125rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.card-content{
+  padding: 0 20px;
+
+  h2 {
+    font-size: 1.25rem;
+    margin-bottom: .625rem;
+    text-align: left;
+    font-family: "Archivo", sans-serif;
+    color: #0097FE;
+    font-weight: bold;
+   } 
+}
+
+.card-content p {
+  font-size: .875rem;
+  text-align: left;
+
+}
+
+/**********Sixth Section Css**************/
+.whatDo{
+   ul{
+    padding: 0;
+    margin: 0;
+   }
+   li{
+    list-style: none;
+    background: url('./images/green-tick.svg') no-repeat;
+    padding-left: 30px; 
+    margin-bottom: 20px; 
+    text-align: left;
+    font-size: 1rem;
+    color: #9D9C9C;
+    font-family: "Archivo", sans-serif;
+   }
+}
+
+.notDo{
+  ul{
+   padding: 0;
+   margin: 0;
+  }
+  li{
+   list-style: none;
+   background: url('./images/close.svg') no-repeat;
+   padding-left: 30px; 
+   margin-bottom: 20px; 
+   text-align: left;
+   font-size: 1rem;
+   color: #9D9C9C;
+   font-family: "Archivo", sans-serif;
+  }
 }
