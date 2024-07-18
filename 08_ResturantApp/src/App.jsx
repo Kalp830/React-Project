@@ -4,6 +4,8 @@ import Resturant from './components/Basics/Resturant'
 import Row from 'react-bootstrap/Row';
 import MapDemo from './components/Basics/MapDemo'
 import UseState from './components/Hooks/useState';
+import UseEffect from './components/Hooks/UseEffect';
+import UseReducer from './components/Hooks/UseReducer';
 
 function App() {
 
@@ -13,9 +15,10 @@ function App() {
 
                 <Row>          
                    <Resturant/>
-                   
                 </Row>
                 <UseState/>
+                <UseEffect/>
+                <UseReducer/>
    
                   {/* <MapDemo/> */}
     </div>
