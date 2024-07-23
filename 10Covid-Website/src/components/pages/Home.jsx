@@ -5,6 +5,7 @@ import CoronaSpreed from './Home-Sections/CoronaSpreed';
 import PointsDisplay from './Home-Sections/PointsDisplay';
 import PreventCorona from './Home-Sections/PreventCorona';
 import HowtoProtect from './Home-Sections/HowtoProtect';
+import SympOfCorona from './Home-Sections/SympOfCorona';
 
 const Home = () => {
   const headerImg = './images/header-img.png';
@@ -43,6 +44,9 @@ const Home = () => {
 
       {/* How to protect yourself */} 
       <HowtoProtect/>
+
+       {/* Symptoms of Corona */} 
+       <SympOfCorona/>
 
 
     </>

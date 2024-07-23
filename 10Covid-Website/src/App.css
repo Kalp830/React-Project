@@ -108,7 +108,7 @@ ul.listing {
 /**********Fifth Section Css**************/
 
 .prevent-corona{
-  background: #F0ECF9;
+  background-color: rgba(240, 236, 249, 0.342);
   padding: 50px 0;
   margin-bottom: 50px;
 
@@ -202,4 +202,26 @@ ul.listing {
    color: #9D9C9C;
    font-family: "Archivo", sans-serif;
   }
+}
+
+/*********Symptoms of corona**************/
+
+.symptions-of-corona{
+    background-color: rgba(240, 236, 249, 0.342);
+    padding: 60px 0;
+}
+.symptions-of-corona{
+  h2{
+    color: #0097fe;
+    font-family: "Archivo", sans-serif;
+  }
+  p{
+    color: #858585;
+  }
+}
+.symptom-card{
+   background-color: #fff;
+   padding: 1rem;
+   box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.1);
+   margin-bottom: 30px;
 }
