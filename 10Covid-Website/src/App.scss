@@ -1,4 +1,17 @@
 
+@import './Variable';
+
+%button-css{
+  border-radius: 6.25rem;
+    text-transform: uppercase;
+    padding: .625rem 1.875rem;
+    background: $theme-color;
+    color: #fff;
+    font-family: $archivo-font;
+    font-size: normal;
+    margin-top: 1.5625rem;
+}
+
 .top-header{
   background-color: #F0ECF9;
   min-height: auto;
@@ -8,33 +21,25 @@
 }
 .jumbotron{
   h1{
-    font-family: "Archivo", sans-serif;
-    color: #0097FE;
+    font-family: $archivo-font;
+    color: $theme-color;
     font-weight: bold;
   }
   h6{
     text-transform: uppercase;
-    font-family: "Archivo", sans-serif;
-    color: #0097FE;
+    font-family: $archivo-font;
+    color: $theme-color;
   }
   p{
-    color: #858585;
+    color: $font-color;
   }
   button{
-    border-radius: 6.25rem;
-    text-transform: uppercase;
-    padding: .625rem 1.875rem;
-    background: #0097FE;
-    color: #fff;
-    font-family: "Archivo", sans-serif;
-    font-size: normal;
-    margin-top: 1.5625rem;
+    @extend %button-css;
   }
   button:hover{
     background: #047dce;
     color: #fff;
   }
- 
 }
 
 /**********Second Section Css**************/
@@ -42,16 +47,16 @@
 .how-to-protect{
   text-align: center;
   h2{
-    color: #0097FE;
-    font-family: "Archivo", sans-serif;
+    color: $theme-color;
+    font-family: $archivo-font;
     padding: 1.875rem 0 0 0;
   }
   p{
-    color: #858585;
+    color: $font-color;
   }
   span{
-    color: #0097FE;
-    font-family: "Archivo", sans-serif;
+    color: $theme-color;
+    font-family: $archivo-font;
     font-size: 2rem;
     font-weight: 700;
   }
@@ -61,23 +66,16 @@
 /**********Third Section Css**************/
 .about-corona{
   h3{
-    color: #0097FE;
-    font-family: "Archivo", sans-serif;
+    color: $theme-color;
+    font-family: $archivo-font;
     font-size: 2rem;
     font-weight: 700;
   }
   p{
-    color: #858585;
+    color: $font-color;
   }
   button{
-    border-radius: 6.25rem;
-    text-transform: uppercase;
-    padding: .625rem 1.875rem;
-    background: #0097FE;
-    color: #fff;
-    font-family: "Archivo", sans-serif;
-    font-size: normal;
-    margin-top: 1.5625rem;
+    @extend %button-css;
   }
   button:hover{
     background: #047dce;
@@ -94,46 +92,42 @@ ul.listing {
   list-style: none;
   padding-left: 1.875rem; 
   margin-bottom: 1.25rem; 
-  color: #858585;
+  color: $font-color;
 }
 /**********Foruth Section Css**************/
-.point-display h5{
-  font-family: "Archivo", sans-serif;
-  color: #0097FE;
-  font-weight: 700;
-  font-size: 24px;
-  margin-bottom: 0;
-}
+.point-display{
+  h5{
+    font-family: $archivo-font;
+    color: $theme-color;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+} 
 
 /**********Fifth Section Css**************/
+.prevent-corona{
+   button{
+    @extend %button-css;
+    :hover{
+      background: #047dce;
+      color: #fff;
+    }
+  }
+  p{
+    color: $font-color;
+  }
+  h3{
+    font-family: $archivo-font;
+    color: $theme-color;
+    font-weight: bold;
+  }
+} 
 
 .prevent-corona{
   background-color: rgba(240, 236, 249, 0.342);
   padding: 50px 0;
   margin-bottom: 50px;
-
-  button{
-    border-radius: 6.25rem;
-    text-transform: uppercase;
-    padding: .625rem 1.875rem;
-    background: #0097FE;
-    color: #fff;
-    font-family: "Archivo", sans-serif;
-    font-size: normal;
-    margin-top: 1.5625rem;
-  }
-  button:hover{
-    background: #047dce;
-    color: #fff;
-  }
-  p{
-    color: #858585;
-  }
-  h3{
-    font-family: "Archivo", sans-serif;
-    color: #0097FE;
-    font-weight: bold;
-  }
 }
 
 .card {
@@ -153,20 +147,18 @@ ul.listing {
 .card-content{
   padding: 0 20px;
 
-  h2 {
+  h2{
     font-size: 1.25rem;
     margin-bottom: .625rem;
     text-align: left;
-    font-family: "Archivo", sans-serif;
-    color: #0097FE;
+    font-family: $archivo-font;
+    color: $theme-color;
     font-weight: bold;
-   } 
-}
-
-.card-content p {
-  font-size: .875rem;
-  text-align: left;
-
+  }
+  p{
+    font-size: .875rem;
+    text-align: left;
+  }
 }
 
 /**********Sixth Section Css**************/
@@ -183,7 +175,7 @@ ul.listing {
     text-align: left;
     font-size: 1rem;
     color: #9D9C9C;
-    font-family: "Archivo", sans-serif;
+    font-family: $archivo-font;
    }
 }
 
@@ -200,7 +192,7 @@ ul.listing {
    text-align: left;
    font-size: 1rem;
    color: #9D9C9C;
-   font-family: "Archivo", sans-serif;
+   font-family: $archivo-font;
   }
 }
 
@@ -212,16 +204,21 @@ ul.listing {
 }
 .symptions-of-corona{
   h2{
-    color: #0097fe;
-    font-family: "Archivo", sans-serif;
+    color: $theme-color;
+    font-family: $archivo-font;
   }
   p{
-    color: #858585;
+    color: $font-color;
   }
 }
-.symptom-card{
-   background-color: #fff;
-   padding: 1rem;
-   box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.1);
-   margin-bottom: 30px;
+.symptions-of-corona{
+  .symptom-card{
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  button{
+    @extend %button-css;
+   }
 }
