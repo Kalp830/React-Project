@@ -1,0 +1,299 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Poppins", sans-serif;
+}
+
+.container-custom {
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-section ul li a {
+    color: #000;
+}
+
+.about-us {
+    background: #f0f5fc;
+    padding: 3.125rem 0;
+}
+
+.bg-primary {
+    background-color: #1279BE !important;
+    border: 0;
+}
+
+.about-inner h2 {
+    color: #1279BE;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.about-inner h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.about-inner,
+.product-grid span {
+    color: #666;
+}
+
+/* Tabs CSS */
+.product-grid {
+    padding: 60px 0;
+}
+
+.product-grid h2 {
+    color: #1279BE;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.product-grid h5 {
+    font-family: "Poppins", sans-serif;
+}
+
+nav > .nav.nav-tabs {
+    border: none;
+    color: #fff;
+    background: #1279BE;
+    border-radius: 0;
+}
+
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active {
+    border: none;
+    padding: 18px 25px;
+    color: #fff;
+    background: #1279BE;
+    border-radius: 0;
+}
+
+nav > div a.nav-item.nav-link.active:after {
+    content: "";
+    position: relative;
+    bottom: -60px;
+    left: -10%;
+    border: 15px solid transparent;
+    border-top-color: #000;
+}
+
+.tab-content {
+    background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    padding: 30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus {
+    border: none;
+    background: #000;
+    color: #fff;
+    border-radius: 0;
+    transition: background 0.20s linear;
+}
+
+.text-primary-blue {
+    color: #1279BE;
+}
+
+/* Our Services */
+.our-services {
+    background: #f0f5fc;
+    padding: 60px 0;
+}
+
+.our-services h2 {
+    color: #1279BE;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.our-services h5 {
+    font-family: "Poppins", sans-serif;
+}
+
+.our-services .card {
+    padding: 1rem !important;
+    border: none;
+    margin-bottom: 1rem;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+.our-services .card:hover {
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.our-services .card .card-block {
+    padding-left: 50px;
+    position: relative;
+}
+
+.our-services .card .card-block h4 {
+    font-family: "Poppins", sans-serif;
+}
+
+.our-services .card .card-block a {
+    color: #1279BE !important;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.our-services .card .card-block a i {
+    display: none;
+}
+
+.our-services .card:hover .card-block a i {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.our-services .card .card-block:before {
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #1279BE;
+    left: 0;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+}
+
+.our-services .card .block-1:before {
+    content: "\f0c2";
+}
+
+.our-services .card .block-2:before {
+    content: "\f21b";
+}
+
+.our-services .card .block-3:before {
+    content: "\f26b";
+}
+
+.our-services .card .block-4:before {
+    content: "\f1c0";
+}
+
+.our-services .card .block-5:before {
+    content: "\f0c5";
+}
+
+.our-services .card .block-6:before {
+    content: "\f085";
+}
+
+.our-services .card:hover .card-block:before {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+/* Footer CSS */
+.semi-footer {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer ul li a {
+    text-decoration: none;
+}
+
+/* Responsive styles */
+@media (max-width: 1440px) {
+    .container-custom {
+        width: 95%;
+    }
+}
+@media (max-width: 1200px) {
+    nav > div a.nav-item.nav-link.active:after {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-inner h2, 
+    .product-grid h2, 
+    .our-services h2 {
+        font-size: 1.5rem;
+    }
+    
+    .about-inner h5,
+    .product-grid h5, 
+    .our-services h5 {
+        font-size: 1rem;
+    }
+
+    .our-services .card .card-block {
+        padding-left: 20px;
+    }
+
+    .tab-content {
+        padding: 15px 10px;
+    }
+    .our-services .card .block-1:before,
+    .our-services .card .block-2:before,
+    .our-services .card .block-3:before,
+    .our-services .card .block-4:before,
+    .our-services .card .block-5:before,
+    .our-services .card .block-6:before {
+        font-size: 1.2rem;
+    }
+    .our-services .card .card-block h4{
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+ 
+}
+
+@media (max-width: 768px) {
+    .about-us, .our-services {
+        padding: 30px 0;
+    }
+
+    .product-grid {
+        padding: 30px 0;
+    }
+
+    .our-services .card .card-block {
+        padding-left: 15px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .about-inner h2, 
+    .product-grid h2, 
+    .our-services h2 {
+        font-size: 1.25rem;
+    }
+
+    .about-inner h5, 
+    .product-grid h5, 
+    .our-services h5 {
+        font-size: 0.875rem;
+    }
+
+    .our-services .card .card-block {
+        padding-left: 10px;
+    }
+
+    .tab-content {
+        padding: 10px 5px;
+    }
+}
