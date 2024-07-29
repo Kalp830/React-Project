@@ -1,6 +1,9 @@
 
 @import './Variable';
 
+html{
+  font-family: $archivo-font;
+}
 %button-css{
   border-radius: 6.25rem;
     text-transform: uppercase;
@@ -228,4 +231,38 @@ ul.listing {
   button{
     @extend %button-css;
    }
+}
+/*******News and Articel Section********/
+
+.NA-section{
+  .date{
+    background: $theme-color;
+    padding: 5px;
+    font-family: $archivo-font;
+    text-align: center;
+    color: #fff;
+    width: 10rem;
+    margin: 0 auto;
+    position: relative;
+    bottom: 19px;
+  }
+  p{
+    text-transform:capitalize;
+    margin-bottom: 0;
+  }
+  .info-box{
+    font-family: $archivo-font;
+    color: $light-gray;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    i{
+      padding-right: 10px;
+      color: $light-gray;
+    } 
+  }
+}
+.footer-section{
+  background-color: rgba(240, 236, 249, 0.342);
+  padding: 2rem 0;
 }
