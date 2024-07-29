@@ -42,13 +42,12 @@ const SympOfCorona = () => {
                 />
                 </div>
                 <div className='col-xl-1 col-md-1 col'></div>
-               
             </div>
 
             <div className='row'>
                 <div className='col-xl-6 col-md col-lg'>
-                  <h5>Stay at home and call your doctor : Lorem ipsum dolor sit amet, consectetur adipiscing elit
-sed do eiusmod tempor  </h5>
+                <p> <span className='text-blue fw-bold'>Stay at home and call your doctor</span> : Lorem ipsum dolor sit amet, consectetur adipiscing elit
+sed do eiusmod tempor</p> 
                 </div>
                 <div className='col-xl-2 offset-xl-2 offset-md-0 offset-lg-2 col-md col-lg'>
                 <button className='btn btn-prevent text-white'>Help Line</button>
@@ -60,7 +59,7 @@ sed do eiusmod tempor  </h5>
   )
 }
 
- export const CardDetail = ({title, description, imgURL}) =>{
+ export const   CardDetail = ({title, description, imgURL}) =>{
    return(
       <>
           <div className='symptom-card'>

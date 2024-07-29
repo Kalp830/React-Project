@@ -6,6 +6,7 @@ import PointsDisplay from './Home-Sections/PointsDisplay';
 import PreventCorona from './Home-Sections/PreventCorona';
 import HowtoProtect from './Home-Sections/HowtoProtect';
 import SympOfCorona from './Home-Sections/SympOfCorona';
+import NewsArticale from './Home-Sections/NewsArticale';
 
 const Home = () => {
   const headerImg = './images/header-img.png';
@@ -47,6 +48,9 @@ const Home = () => {
 
        {/* Symptoms of Corona */} 
        <SympOfCorona/>
+
+       {/* News and Article */} 
+       <NewsArticale/>
 
 
     </>
