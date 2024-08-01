@@ -262,7 +262,48 @@ ul.listing {
     } 
   }
 }
-.footer-section{
+
+/*******Footer CSS***********/
+footer{
   background-color: rgba(240, 236, 249, 0.342);
-  padding: 2rem 0;
+  padding-top: 2rem;
+
+  .social-media{
+    a{
+      font-size: 2rem ;
+      color: $theme-color;
+      padding-right: 1rem;
+      font-family: $archivo-font;
+    :hover{
+      color:#0173c0 ;
+    }
+    }
+  }
+  .sub_footer{
+    h5{
+      font-family: $archivo-font;
+    }
+  }
+  .sub_footer-links{
+    a{
+      text-decoration: none;
+      font-family: $archivo-font;
+      color: #999;
+      &:hover{
+        color:$theme-color;
+      }
+    }
+    h4{
+      font-family: $archivo-font;
+    }
+  }
+  p{
+    font-family: $archivo-font;
+  }
+  .bottom-footer{
+    color: $font-color;
+    background-color: rgba(240, 236, 249, 0.5);
+  }
 }
+
+
