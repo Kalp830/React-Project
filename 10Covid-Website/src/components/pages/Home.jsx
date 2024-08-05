@@ -51,8 +51,6 @@ const Home = () => {
 
        {/* News and Article */} 
        <NewsArticale/>
-
-
     </>
   )
 }
