@@ -1,3 +1,7 @@
+html {
+  font-family: "Archivo", sans-serif;
+}
+
 .symptions-of-corona button, .prevent-corona button, .about-corona button, .jumbotron button {
   border-radius: 6.25rem;
   text-transform: uppercase;
@@ -205,4 +209,67 @@ ul.listing {
   padding: 1rem;
   box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
+}
+/*******News and Articel Section********/
+.NA-section .date {
+  background: #0097FE;
+  padding: 5px;
+  font-family: "Archivo", sans-serif;
+  text-align: center;
+  color: #fff;
+  width: 10rem;
+  margin: 0 auto;
+  position: relative;
+  bottom: 19px;
+}
+.NA-section p {
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+.NA-section .info-box {
+  font-family: "Archivo", sans-serif;
+  color: #ddd9d9;
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.NA-section .info-box i {
+  padding-right: 10px;
+  color: #ddd9d9;
+}
+
+/*******Footer CSS***********/
+footer {
+  background-color: rgba(240, 236, 249, 0.342);
+  padding-top: 2rem;
+}
+footer .social-media a {
+  font-size: 2rem;
+  color: #0097FE;
+  padding-right: 1rem;
+  font-family: "Archivo", sans-serif;
+}
+footer .social-media a :hover {
+  color: #0173c0;
+}
+footer .sub_footer h5 {
+  font-family: "Archivo", sans-serif;
+}
+footer .sub_footer-links a {
+  text-decoration: none;
+  font-family: "Archivo", sans-serif;
+  color: #999;
+}
+footer .sub_footer-links a:hover {
+  color: #0097FE;
+}
+footer .sub_footer-links h4 {
+  font-family: "Archivo", sans-serif;
+}
+footer p {
+  font-family: "Archivo", sans-serif;
+}
+footer .bottom-footer {
+  color: #858585;
+  background-color: rgba(240, 236, 249, 0.5);
 }/*# sourceMappingURL=App.css.map */
