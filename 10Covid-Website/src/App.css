@@ -1,0 +1,275 @@
+html {
+  font-family: "Archivo", sans-serif;
+}
+
+.symptions-of-corona button, .prevent-corona button, .about-corona button, .jumbotron button {
+  border-radius: 6.25rem;
+  text-transform: uppercase;
+  padding: 0.625rem 1.875rem;
+  background: #0097FE;
+  color: #fff;
+  font-family: "Archivo", sans-serif;
+  font-size: normal;
+  margin-top: 1.5625rem;
+}
+
+.fw-700 {
+  color: 700;
+}
+
+.text-blue {
+  color: #0097FE;
+}
+
+.top-header {
+  background-color: #F0ECF9;
+  min-height: auto;
+}
+
+.btn-prevent {
+  border-radius: 50%;
+}
+
+.jumbotron h1 {
+  font-family: "Archivo", sans-serif;
+  color: #0097FE;
+  font-weight: bold;
+}
+.jumbotron h6 {
+  text-transform: uppercase;
+  font-family: "Archivo", sans-serif;
+  color: #0097FE;
+}
+.jumbotron p {
+  color: #858585;
+}
+.jumbotron button:hover {
+  background: #047dce;
+  color: #fff;
+}
+
+/**********Second Section Css**************/
+.corona-statics,
+.how-to-protect {
+  text-align: center;
+}
+.corona-statics h2,
+.how-to-protect h2 {
+  color: #0097FE;
+  font-family: "Archivo", sans-serif;
+  padding: 1.875rem 0 0 0;
+}
+.corona-statics p,
+.how-to-protect p {
+  color: #858585;
+}
+.corona-statics span,
+.how-to-protect span {
+  color: #0097FE;
+  font-family: "Archivo", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/**********Third Section Css**************/
+.about-corona h3 {
+  color: #0097FE;
+  font-family: "Archivo", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.about-corona p {
+  color: #858585;
+}
+.about-corona button:hover {
+  background: #047dce;
+  color: #fff;
+}
+
+ul.listing {
+  padding: 0;
+  margin: 0;
+}
+
+.listing li {
+  /* list-style-image: url(./images/check-mark.svg) ; */
+  background: url("./images/check-mark.svg") no-repeat;
+  list-style: none;
+  padding-left: 1.875rem;
+  margin-bottom: 1.25rem;
+  color: #858585;
+}
+
+/**********Foruth Section Css**************/
+.point-display h5 {
+  font-family: "Archivo", sans-serif;
+  color: #0097FE;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+/**********Fifth Section Css**************/
+.prevent-corona button :hover {
+  background: #047dce;
+  color: #fff;
+}
+.prevent-corona p {
+  color: #858585;
+}
+.prevent-corona h3 {
+  font-family: "Archivo", sans-serif;
+  color: #0097FE;
+  font-weight: bold;
+}
+
+.prevent-corona {
+  background-color: rgba(240, 236, 249, 0.342);
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.card {
+  background-color: #007bff;
+  color: white;
+  width: 223px;
+  margin: 1.25rem;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 151, 254, 0.4);
+}
+
+.card-icon {
+  font-size: 3.125rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.card-content {
+  padding: 0 20px;
+}
+.card-content h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  text-align: left;
+  font-family: "Archivo", sans-serif;
+  color: #0097FE;
+  font-weight: bold;
+}
+.card-content p {
+  font-size: 0.875rem;
+  text-align: left;
+}
+
+/**********Sixth Section Css**************/
+.whatDo ul {
+  padding: 0;
+  margin: 0;
+}
+.whatDo li {
+  list-style: none;
+  background: url("./images/green-tick.svg") no-repeat;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 1rem;
+  color: #9D9C9C;
+  font-family: "Archivo", sans-serif;
+}
+
+.notDo ul {
+  padding: 0;
+  margin: 0;
+}
+.notDo li {
+  list-style: none;
+  background: url("./images/close.svg") no-repeat;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 1rem;
+  color: #9D9C9C;
+  font-family: "Archivo", sans-serif;
+}
+
+/*********Symptoms of corona**************/
+.symptions-of-corona {
+  background-color: rgba(240, 236, 249, 0.342);
+  padding: 60px 0;
+}
+
+.symptions-of-corona h2 {
+  color: #0097FE;
+  font-family: "Archivo", sans-serif;
+}
+.symptions-of-corona p {
+  color: #858585;
+}
+
+.symptions-of-corona .symptom-card {
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+/*******News and Articel Section********/
+.NA-section .date {
+  background: #0097FE;
+  padding: 5px;
+  font-family: "Archivo", sans-serif;
+  text-align: center;
+  color: #fff;
+  width: 10rem;
+  margin: 0 auto;
+  position: relative;
+  bottom: 19px;
+}
+.NA-section p {
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+.NA-section .info-box {
+  font-family: "Archivo", sans-serif;
+  color: #ddd9d9;
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.NA-section .info-box i {
+  padding-right: 10px;
+  color: #ddd9d9;
+}
+
+/*******Footer CSS***********/
+footer {
+  background-color: rgba(240, 236, 249, 0.342);
+  padding-top: 2rem;
+}
+footer .social-media a {
+  font-size: 2rem;
+  color: #0097FE;
+  padding-right: 1rem;
+  font-family: "Archivo", sans-serif;
+}
+footer .social-media a :hover {
+  color: #0173c0;
+}
+footer .sub_footer h5 {
+  font-family: "Archivo", sans-serif;
+}
+footer .sub_footer-links a {
+  text-decoration: none;
+  font-family: "Archivo", sans-serif;
+  color: #999;
+}
+footer .sub_footer-links a:hover {
+  color: #0097FE;
+}
+footer .sub_footer-links h4 {
+  font-family: "Archivo", sans-serif;
+}
+footer p {
+  font-family: "Archivo", sans-serif;
+}
+footer .bottom-footer {
+  color: #858585;
+  background-color: rgba(240, 236, 249, 0.5);
+}/*# sourceMappingURL=App.css.map */
