@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.continer{
+  width: 1280px;
+}
