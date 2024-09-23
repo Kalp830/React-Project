@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import style from './Item.module.css';
 
 const Items = ({items}) => {
   return (
     <>
-      <li className='list-group-item text-start'>{items}</li>
+      <li className={`${style["ul-bg-gray"]} ${style["li-text-white"]} list-group-item text-start`}>{items}</li>
     </>
   )
 }
 
-export default Items
+export default Items;
