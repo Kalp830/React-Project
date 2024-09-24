@@ -1,4 +1,27 @@
 .calculator{
     border: 1px solid #999999f6;
     border-radius: 5px;
+    padding: 20px;
+
+}
+.display{
+    margin: 15px 0;
+    width: 100%;
+    font-size: 25px;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.button{
+    display: block;
+    width: 45px;
+    height: 45px;
+}
+.h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
 }
