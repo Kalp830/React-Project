@@ -1,13 +1,14 @@
 import './App.css'
 import AppName from './components/AppName';
 import BharatClock from './components/BharatClock';
+import Container from './components/Container';
 import MapMethod from './components/MapMethod';
 
 function App() {
  
   return (
-    <>
-     <div className='container'>
+   <>
+    <Container>
       <AppName/>
         <div className='row mb-3'>
            <div className='col-xl'>
@@ -42,10 +43,9 @@ function App() {
             <button className='btn btn-danger'>Delete</button>
            </div>
         </div>
-        
-     </div>
      <BharatClock/>
      <MapMethod/>
+    </Container>
     </>
   )
 }
