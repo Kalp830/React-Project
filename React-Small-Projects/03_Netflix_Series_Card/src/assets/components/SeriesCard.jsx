@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const SeriesCard = (props) => {
   const {id, img_url, name, genre, rating, cast, watch_url, description} = props.curEle
   return (
@@ -8,11 +9,11 @@ const SeriesCard = (props) => {
       <img
        src={img_url}
        alt={name}
-       width="40%"
-       height="40%"
+       width="100%"
+       height="auto"
       ></img>
       <h2>Name: {name}</h2>
-      <h3>Rating: {rating}</h3>
+      <h3>Rating:<span className={rating > 8.5 ? "super_hit" : "average"}> {rating}</span></h3>
       <p>Description: {description}</p>
       <p>Genre: {genre}</p>
       <p>Cast: {cast}</p>
@@ -20,6 +21,9 @@ const SeriesCard = (props) => {
         <button style={{marginBottom:"10px"}}>Watch Now</button>
       </a>
       </li> 
+ 
+    
+
       </>
     )
     
