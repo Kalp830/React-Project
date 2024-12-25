@@ -1,6 +1,7 @@
 import React from 'react'
 
 const EventProps = () => {
+
     const handleWelcomeUser = (user) => {
         alert(`Hey How are you ${user}`);
     }
