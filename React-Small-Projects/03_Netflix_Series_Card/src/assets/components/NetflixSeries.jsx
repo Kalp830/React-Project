@@ -8,8 +8,8 @@ const NetflixSeries = () => {
    <div className='row'>
     
  {seriesData.map((curEle) => (
-  <div className='col-md-6'>
-     <SeriesCard key={curEle.id}  curEle={curEle}/>
+  <div className='col-md-6'  key={curEle.id}>
+     <SeriesCard curEle={curEle}/>
      </div>
      ))}
      </div>
