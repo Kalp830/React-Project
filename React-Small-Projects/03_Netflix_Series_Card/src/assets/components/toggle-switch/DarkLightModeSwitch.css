@@ -1,0 +1,18 @@
+.dark {
+  background-color: #1a1d1a;
+  transform: translateX(50px);
+  -webkit-transform: translateX(50px);
+  -moz-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  -o-transform: translateX(50px);
+}
+
+.light {
+  background-color: #f3e8e7;
+  transform: translateX(0);
+}
+
+.switch-state {
+  margin: 0 10px;
+  text-transform: uppercase;
+}
