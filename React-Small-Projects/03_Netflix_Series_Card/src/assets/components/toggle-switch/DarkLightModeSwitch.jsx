@@ -11,12 +11,15 @@ const DarkLightModeSwitch = () => {
   return (
     <>
       <div
-        className="toggle-switch"
+        className="mode-toggle-switch"
         style={{ backgroundColor: isMode ? "#1a1d1a" : "#f3e8e7" }}
         onClick={handleColorMode}
       >
-        <div className={`switch ${isMode ? "dark" : "light"}`}>
-          <span className="switch-state">{isMode ? "dark" : "light"}</span>
+        <div className={`mode-switch ${isMode ? "dark" : "light"}`}>
+          <div className="switch-state">
+            {isMode ? "dark" : "light"}
+            <span className={`color: ${isMode ? "#000" : "#fff"}`}></span>
+          </div>
         </div>
       </div>
     </>

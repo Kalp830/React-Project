@@ -1,4 +1,4 @@
-.toggle-switch {
+.mode-toggle-switch {
   width: 100px;
   height: 50px;
   border-radius: 25px;
@@ -8,27 +8,29 @@
   padding: 5px;
   margin-top: 5rem;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin-left: 15px;
 }
 
-.switch {
+.mode-switch {
   width: 40px;
   height: 40px;
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   font-weight: bold;
   position: absolute;
   top: 5px;
   left: 5px;
   transition: transform 0.3s linear, background-color 0.3s linear;
-  border: 0.2rem solid #ccc;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 10px;
 }
 
 .dark {
   background-color: #1a1d1a;
+  color: #ffffff;
+  border: 0.2rem solid #ccc;
   transform: translateX(50px);
   -webkit-transform: translateX(50px);
   -moz-transform: translateX(50px);
@@ -36,9 +38,11 @@
   -o-transform: translateX(50px);
 }
 
-.off {
+.light {
+  color: #1a1d1a;
   background-color: #f3e8e7;
   transform: translateX(0);
+  border: 0.2rem solid #1a1d1a;
 }
 
 .switch-state {
