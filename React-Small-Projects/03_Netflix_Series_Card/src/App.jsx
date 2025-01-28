@@ -9,6 +9,7 @@ import Todo from "./assets/components/Todo/Todo";
 import ToggleSwitch from "./assets/components/toggle-switch/ToggleSwitch";
 import Card from "./assets/components/props/Card";
 import Button from "./assets/components/props/Button";
+import ConditionalRendering from "./assets/components/ConditionalRendering";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -35,6 +36,7 @@ function App() {
       </Card> */}
       <h1>{count}</h1>
       <Button handleClick={handleClick} text="Click Me"></Button>
+      <ConditionalRendering />
     </>
   );
 }
