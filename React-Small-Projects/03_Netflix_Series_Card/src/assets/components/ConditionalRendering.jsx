@@ -45,6 +45,9 @@ const ConditionalRendering = () => {
 export default ConditionalRendering;
 
 /*
+ChatGPT Break Down
+----------------------------
+
 Let's break down the `togglePacked` function into simple steps so that it's easy to understand.
 
 ### Purpose of `togglePacked`
@@ -103,7 +106,7 @@ i === index
 ```
 - For items that are **not** the clicked one (`i !== index`), we return them unchanged.
 
----
+--- 
 
 ### Example Walkthrough
 Suppose the list looks like this:

@@ -10,6 +10,8 @@ import ToggleSwitch from "./assets/components/toggle-switch/ToggleSwitch";
 import Card from "./assets/components/props/Card";
 import Button from "./assets/components/props/Button";
 import ConditionalRendering from "./assets/components/ConditionalRendering";
+import ListRendering from "./assets/components/list-rendering/ListRendering";
+import Joke from "./assets/components/joke-generator/Joke";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -36,7 +38,12 @@ function App() {
       </Card> */}
       <h1>{count}</h1>
       <Button handleClick={handleClick} text="Click Me"></Button>
+      <hr />
       <ConditionalRendering />
+      <hr />
+      <ListRendering />
+      <hr />
+      <Joke />
     </>
   );
 }
